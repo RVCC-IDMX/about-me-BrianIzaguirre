@@ -1,0 +1,31 @@
+body { 
+    font-family: Gemunu+Libre;
+    background-color: #E32277; 
+    color: #4FFF8C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 60pt;
+
+}   
+
+header, footer {
+    text-align: center;
+}
+
+#hero {
+    background-color: #FC893C ;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #229FE3;
+}
+
+#hero img {
+    width: 300px;
+    
+}
+
+#hobbies {
+    text-align: left;
+}
