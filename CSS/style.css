@@ -2,10 +2,13 @@ body {
     font-family: Gemunu+Libre;
     background-color: #E32277; 
     color: #4FFF8C;
+    font-size: 15pt
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Gemunu Libre', sans-serif;
+} 
+ h1 {   
     font-size: 60pt;
 
 }   
@@ -26,6 +29,11 @@ header, footer {
     
 }
 
-#hobbies {
+#bio {
     text-align: left;
+}
+
+#hobbies ul li:nth-child(2n+4){
+    color: #229FE3; 
+    
 }
