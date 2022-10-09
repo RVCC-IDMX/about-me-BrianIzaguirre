@@ -1,8 +1,8 @@
 body { 
     font-family: Gemunu+Libre;
-    background-color: #E32277; 
+    background-color: #FC893C; 
     color: #4FFF8C;
-    font-size: 15pt
+    font-size: 25pt
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,23 +17,54 @@ header, footer {
     text-align: center;
 }
 
+/* Hero*/
 #hero {
-    background-color: #FC893C ;
+    background-color: #E32277 ;
     text-align: center;
     padding: 10px;
     border: 3px solid #229FE3;
+    border-radius: 4rem;
+    border-left-width: 2rem;
+    border-right-width: 1rem;
 }
 
+/*heor img*/
 #hero img {
     width: 300px;
     
 }
 
-#bio {
+/*bio*/
+#bio li:nth-child(2n+2) {
     text-align: left;
+    color: #E32277;
+    
 }
 
-#hobbies ul li:nth-child(2n+4){
-    color: #229FE3; 
+/*hobbies*/
+#hobbies ul li:nth-child(1n+4){
+    color: #E32277; 
+    
+}
+
+/*gallery*/
+#gallery {
+    border: 2px solid #229FE3; 
+    border-radius: 6ch;
+    border-width: 1rem; 
+    text-align: center;
+    font-size: 40pt;
+}
+/*gallery img*/
+#gallery img {
+    max-width: 100%;
+    
+     
+}
+
+#gallery figure {
+    text-align: center;
+    font-size: 30pt;
+    color: #4FFF8C; 
     
 }
