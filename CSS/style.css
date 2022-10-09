@@ -54,6 +54,7 @@ header, footer {
     border-width: 1rem; 
     text-align: center;
     font-size: 40pt;
+    margin-bottom: 2rem;
 }
 /*gallery img*/
 #gallery img {
@@ -66,5 +67,29 @@ header, footer {
     text-align: center;
     font-size: 30pt;
     color: #4FFF8C; 
+}
+
+/*lit*/
+#lit {
+    border: 6px solid #229FE3; 
+    margin-bottom: 2 rem;
+    text-align: center;
     
+}
+
+#lit div {
+    padding: 1rem;
+    text-align:left;
+    max-width: 40rem;
+    margin: 0 auto; 
+    color:#E32277; 
+}
+
+#lit div p:first-letter {
+    color:#4FFF8C;
+    float: left;
+    font-size: 6rem; 
+    padding:3rem;
+    line-height:.20;
+    border: solid #0000;
 }
