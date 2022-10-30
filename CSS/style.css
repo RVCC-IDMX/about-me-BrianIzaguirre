@@ -2,7 +2,7 @@ body {
     font-family: Gemunu+Libre;
     background-color: #FC893C; 
     color: #4FFF8C;
-    font-size: 40pt;
+    font-size: 25pt;
     
 }
 
@@ -119,6 +119,13 @@ section#bio {
     border: 6px solid #229FE3;
 }
 
+/*Video*/
+#myvideo{
+    text-align: center;
+    color:#4FFF8C;
+    
+}
+
 @media screen and (min-width: 60em) {
     figure {
     display: grid;
@@ -142,6 +149,10 @@ section#bio {
         columns: 20rem;
     }
 
+    #myvideo{
+        width:100%;
+    }
+
     /* large screen size */
     @media screen and (min-width: 100em) {
 
@@ -161,5 +172,9 @@ section#bio {
 
     figure{
         display:block;
+    }
+
+    #myvideo{
+        width: 80%;
     }
 }
