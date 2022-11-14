@@ -1,6 +1,6 @@
 body { 
     font-family: Gemunu+Libre;
-    background-color: #FC893C; 
+    background-color:#FC893C; 
     color: #4FFF8C;
     font-size: 25pt;
     
@@ -123,8 +123,65 @@ section#bio {
 #myvideo{
     text-align: center;
     color:#4FFF8C;
+    font-size: 30pt; 
     
 }
+
+/* Contact Form*/
+#formElements{
+    display:grid;
+    row-gap: 1rem;
+}
+
+#contact{
+    padding: 1rem;
+    max-width:800px;
+    margin: 3rem auto;
+}
+
+fieldset{
+    border: 5px solid;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+legend{
+    background-color: #E32277;
+    color:#4FFF8C;
+    padding: .5em;
+    border-radius: 3rem;
+    border: .5em dotted #229FE3;
+
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    list-style: none;
+    padding:0px;
+}
+
+#contact li{
+    margin:2rem;
+}
+
+#contact button{
+    background-color:#E32277;
+    color: #4FFF8C;
+    border: .5em dotted #229FE3;
+    border-radius: 2rem;
+    max-width: 400px;
+    width: 70%;
+    justify-self: center;
+
+}
+
+
+
 
 @media screen and (min-width: 60em) {
     figure {
@@ -150,8 +207,10 @@ section#bio {
     }
 
     #myvideo{
-        width:100%;
+        max-width: 100%;
     }
+
+    
 
     /* large screen size */
     @media screen and (min-width: 100em) {
@@ -175,6 +234,8 @@ section#bio {
     }
 
     #myvideo{
-        width: 80%;
+        max-width: 100%;
     }
+
+    
 }
