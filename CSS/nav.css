@@ -60,11 +60,18 @@ main{
 */
 .navbar-links a {
     color: #4FFF8C;
+    background-color:#E32277;
     font-size: 3rem;
     padding: 0.3rem 1.25rem;
     letter-spacing: 5px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+    filter: invert(1);
+    border-radius: 1rem;
 }
 
 /* 
