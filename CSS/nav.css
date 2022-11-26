@@ -45,7 +45,7 @@ main{
 }
 
 .logo h1{
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 /* navigation list */
@@ -80,3 +80,18 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul{
+        display:flex;
+        justify-content: space-between;
+    }
+
+
+}
