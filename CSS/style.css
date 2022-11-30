@@ -1,7 +1,7 @@
 body { 
     font-family: Gemunu+Libre;
-    background-color:#FC893C; 
-    color: #4FFF8C;
+    background-color: #F5D59F ; 
+    color: #0150ed;
     font-size: 25pt;
     
 }
@@ -25,10 +25,10 @@ header, footer {
 
 /* Hero*/
 #hero {
-    background-color: #E32277 ;
+    background-color: #E5CEF5;
     text-align: center;
     padding: 10px;
-    border: 3px solid #229FE3;
+    border: 3px solid #0150ed;
     border-radius: 4rem;
     border-left-width: 2rem;
     border-right-width: 1rem;
@@ -48,7 +48,7 @@ section#bio {
 }
 #bio li:nth-child(2n+2) {
     text-align: left;
-    color: #E32277;
+    color: #9500ff;
 }
     
 
@@ -60,17 +60,17 @@ section#bio {
  }
 
 #hobbies ul li:nth-child(1n+4){
-    color: #E32277;
+    color: #9500ff;
 }
 
 #hobbies {
     Display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 /*gallery*/
 #gallery {
-    border: 2px solid #229FE3; 
+    border: 2px solid #9500ff; 
     border-radius: 6ch;
     border-width: 1rem; 
     text-align: center;
@@ -79,7 +79,7 @@ section#bio {
 }
 /*gallery img*/
 #gallery img {
-    max-width: 100%;
+    max-width: 40%;
     
      
 }
@@ -87,12 +87,12 @@ section#bio {
 #gallery figure {
     text-align: center;
     font-size: 30pt;
-    color: #4FFF8C; 
+    color: #0150ed; 
 }
 
 /*lit*/
 #lit {
-    border: 6px solid #229FE3; 
+    border: 6px solid #0150ed; 
     border-width: 1rem;
     border-radius: 4rem;
     margin: 2rem;
@@ -106,23 +106,23 @@ section#bio {
     text-align:left;
     max-width: 40rem;
     margin: 0 auto; 
-    color:#E32277; 
+    color: #9500ff; 
 }
 
 #lit div p:first-letter {
-    color:#4FFF8C;
+    color: #0150ed;
     float: left;
     font-size: 6rem; 
     padding: 2rem;
     margin-right: 2rem;
     line-height:.20;
-    border: 6px solid #229FE3;
+    border: 6px solid  #9500ff;
 }
 
 /*Video*/
 #myvideo{
     text-align: center;
-    color:#4FFF8C;
+    color:#9500ff;
     font-size: 30pt; 
     
 }
@@ -147,11 +147,11 @@ fieldset{
 }
 
 legend{
-    background-color: #E32277;
-    color:#4FFF8C;
+    background-color:#0150ed;
+    color: #F5D59F; /*#E5CEF5;*/
     padding: .5em;
     border-radius: 3rem;
-    border: .5em dotted #229FE3;
+    border: .5em dotted #E5CEF5;
 
 }
 
@@ -170,9 +170,9 @@ legend{
 }
 
 #contact button{
-    background-color:#E32277;
-    color: #4FFF8C;
-    border: .5em dotted #229FE3;
+    background-color:#0150ed;
+    color: #F5D59F;
+    border: .5em dotted #E5CEF5;
     border-radius: 2rem;
     max-width: 400px;
     width: 70%;
