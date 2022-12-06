@@ -36,12 +36,14 @@ main{
 /* logo */
 .logo{
     display: flex;
-    align-items: center;
+    align-items:Center;
+    
 }
 
 .logo img{
-    height: 5vw;
+    height: 7vw;
     width: 5vw;
+    background-color: #9500ff;
 }
 
 .logo h1{
