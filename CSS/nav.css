@@ -163,7 +163,7 @@ such that no text wraps
 
     .nav, .nav__toggle, .nav__menu{
         flex-direction: row;
-        background-color: #E5CEF5 ;
+        background-color: #E5CEF5;
     }
 
     li{
