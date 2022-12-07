@@ -6,7 +6,7 @@
  The colors I chose was a dark purple and blue and very light purple/pink. I tried making the entire site standout with dark and bright colors so it can grab the users attention.
 
  Citations: 
- This was all my work I did not use any resources to build this website
+ https://thebrandsmen.com/css-image-hover-effects/ is what i used to perform the fade in hover image 
 
  CopyRight
 

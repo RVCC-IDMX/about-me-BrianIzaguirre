@@ -82,9 +82,15 @@ section#bio {
 /*gallery img*/
 #gallery img {
     max-width: 40%;
-    
-    
+    opacity: 0.5;
+    transition: 1s ease;
      
+}
+#gallery img:hover{
+    opacity: 1;
+    transition: 1s ease;
+
+
 }
 
 #gallery figure {
