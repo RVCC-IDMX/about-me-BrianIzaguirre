@@ -32,6 +32,8 @@ header, footer {
     border-radius: 4rem;
     border-left-width: 2rem;
     border-right-width: 1rem;
+    padding-top: 90px;
+    
 }
 
 /*heor img*/
@@ -44,7 +46,7 @@ header, footer {
 section#bio {
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
 }
 #bio li:nth-child(2n+2) {
     text-align: left;
@@ -81,11 +83,12 @@ section#bio {
 #gallery img {
     max-width: 40%;
     
+    
      
 }
 
 #gallery figure {
-    text-align: center;
+    text-align:center;
     font-size: 30pt;
     color: #0150ed; 
 }
@@ -216,7 +219,7 @@ legend{
     @media screen and (min-width: 100em) {
 
         #gallery{
-            display:grid;
+            display:grind;
             grid-template-columns: 1fr 1fr 1fr;
         }
     }
