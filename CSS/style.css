@@ -82,7 +82,7 @@ section#bio {
 /*gallery img*/
 #gallery img {
     max-width: 40%;
-    opacity: 0.5;
+    opacity: 0.2;
     transition: 1s ease;
      
 }
