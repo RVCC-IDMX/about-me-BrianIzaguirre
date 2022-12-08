@@ -128,6 +128,11 @@ section#bio {
     border: 6px solid  #9500ff;
 }
 
+#lit img{
+    opacity: 0.5;
+    transition: 1s ease ;
+}
+
 
 /*Video*/
 #myvideo{
