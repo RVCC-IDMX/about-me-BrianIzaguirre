@@ -8,7 +8,10 @@
  Citations: 
  https://thebrandsmen.com/css-image-hover-effects/
  https://www.wppoland.com/en/fade-in-fade-out-on-image-hover-using-css3/
-  is what i used to perform the fade in hover image 
+  This is what i used to perform the fade in hover image 
+
+  https://www.youtube.com/watch?v=SIzi9z8mrTk&t=1s
+  This is what I used to code the hamburger Icon
 
  CopyRight
 
